@@ -1,12 +1,17 @@
 {
   "name": "plaid_sandbox_starter",
   "version": "1.0.0",
-  "description": "\"Web app for linking bank accounts with Plaid API and retrieving account details.\"",
+  "description": "Web app for linking bank accounts with Plaid API and retrieving account details.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Tim Aguirre",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "plaid": "^22.0.1"
+  }
 }
